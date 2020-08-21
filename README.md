@@ -57,7 +57,7 @@ Author: Daniel
 |                                                          GPA算法                                                          |  1H  |  1H  |                   学业: 6                   |                                                                   |
 |                                                          信息获取                                                          |      |      |                                             |                                                                   |
 |                                                  互联网连接: 购买与客户端                                                   |  1D  |  1D  |                   学业: 9                   |                                                                   |
-|                                                    互联网连接: 自建服务                                                     |  1W  |  2M  |                   学业: 4                   | GNU/Linux, Web Server, JSON, YAML, Regex, IPv4/IPv6/CIDR Notation |
+|                                                    互联网连接: 自建服务                                                     |  1W  |  2M  |                   学业: 4                   | GNU/Linux, Web Server,</br>JSON, YAML, Regex,</br>IPv4/IPv6/CIDR Notation |
 |                                                        阅读英文文档                                                        |  1W  |  3M  |         工程能力: 7; CO&OS: 3; SE: 8         |                                                                   |
 |                                             Google Translate Chrome Extension                                             | 0.5H | 0.5H |                工程能力&SE: 7                |                             互联网连接                             |
 |                                                        观看英语视频                                                        |  1M  |  1Y  |                   学业: 6                   |                                                                   |
@@ -65,8 +65,8 @@ Author: Daniel
 |                                                    man Style Notation                                                     | 0.5H | 0.5H |                   学业: 7                   |                                                                   |
 |                                                      程序设计与自动化                                                       |      |      |                                             |                                                                   |
 |                                                          Python                                                           |  1W  |  3M  |        工程能力: 8; CO&OO&Algo&SE: 7         |                                                                   |
-| os/os.path/shutil/pathlib/sys/subprocess/pip/pprint/time/fileinput/tempfile/json/argparse/re/numpy/matplotlib/math/random |  3W  |  3M  |        工程能力: 10; CO&OO&Algo&SE: 9        |                              Python                               |
-|                  tqdm/Poetry/warnings/timeit/cmd/csv/datetime/httpx/beautifulsoup/decimal/mpmath/hashlib                  |  8W  |  5M  |                 工程能力: 8                  |                              Python                               |
+| os/os.path/shutil/pathlib/</br>sys/subprocess/pip/pprint/</br>time/fileinput/tempfile/json/</br>argparse/re/numpy/</br>matplotlib/math/random |  3W  |  3M  |        工程能力: 10; CO&OO&Algo&SE: 9        |                              Python                               |
+|                  tqdm/Poetry/warnings/timeit/</br>cmd/csv/datetime/httpx/</br>beautifulsoup/decimal/mpmath/hashlib                  |  8W  |  5M  |                 工程能力: 8                  |                              Python                               |
 |                                                           Regex                                                           |      |      |                                             |                                                                   |
 |                                                           PCRE                                                            |  5H  |  1D  |     工程能力: 9; CO&OO&OS&Compiler&SE: 8     |                                                                   |
 |                                                       ERE/BRE/Glob                                                        |  5H  |  1D  |              工程能力: 9; OS: 9              |                                                                   |
@@ -160,20 +160,20 @@ Author: Daniel
 - Paper Work
     - [学生手册: 学籍管理办法](http://jiaowu.buaa.edu.cn/bhjwc2.0/index/newsView.do?xwid=1477)
     - [GPA算法](GPA.md)
--信息获取
+- 信息获取
     - 互联网连接: 有疑问请联系Daniel
     - 阅读英文文档/观看英语视频: 尽量读/听/看/说/写英文, 使用是最好的锻炼
     - [Google Translate Chrome Extension](https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb) (需要互联网连接)
     - [Vimium](https://github.com/philc/vimium) [Doc](https://github.com/philc/vimium/wiki)
         - [Search Engine Snippet](Vimium.txt)
-    - [man Style Notation](Doc _Style.md)
+    - [man Style Notation](Doc_Style.md)
 - 程序设计与自动化
     - Python: [Note](Python)
         - [Learn Python 3 the Hard Way](https://book.douban.com/subject/27094555) 与 [Beginning Python](https://book.douban.com/subject/26883151) 同步阅读: 一本看不懂换另一本, 直到看不懂再换回来
     - [Python 3 Doc](https://docs.python.org/3/): os/os.path/shutil/pathlib/sys/subprocess/pip/pprint/time/fileinput/tempfile/json/argparse/re/math/random/warnings/timeit/cmd/csv/datetime/decimal/hashlib
     - [numpy](https://numpy.org/learn/)/[matplotlib](https://matplotlib.org/tutorials/index.html)/[tqdm](https://github.com/tqdm/tqdm)/[Poetry](https://python-poetry.org/docs/)/[httpx](https://www.python-httpx.org/)/[beautifulsoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)/[mpmath](http://mpmath.org/doc/current/basics.html)
     - [Regex](Regex.md): [PCRE](https://man7.org/linux/man-pages/man3/pcrepattern.3.html)/[ERE/BRE](https://man7.org/linux/man-pages/man7/regex.7.html)/[Glob](https://man7.org/linux/man-pages/man7/glob.7.html)
-    - [Vim](https://www.vim.org/docs.php): [Note](Vim Note.md)
+    - [Vim](https://www.vim.org/docs.php): [Note](Vim_Note.md)
     - [make](https://book.douban.com/subject/3660156/)
     - [WinSW](https://github.com/winsw/winsw) [Note](WinSW.md)
 - 工程能力
@@ -225,5 +225,5 @@ Copyright (C) Daniel
 
 竞争也许会更激烈, 我也许需要承担一些成本和风险, 但, 至少SCSE, 会是一个少一些挫败和痛苦, 多一些希望和欣喜的地方. 我愿为此付出这些代价.
 
-竞争是无法改变的事实, 但希望你我能在竞争中保留对彼此的善意和尊重. 与诸位共勉.
+"此后如竟没有炬火: 我便是唯一的光." 竞争是无法改变的事实, 但希望你我能在竞争中保留对彼此的善意和尊重. 与诸位共勉.
 
