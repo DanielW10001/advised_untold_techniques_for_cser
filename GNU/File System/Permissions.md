@@ -1,0 +1,22 @@
+# Permissions
+
+- Categories
+    - `u`: User
+    - `g`: Group
+    - `o`: Others
+    - `a`: All
+- Operation
+    - `+`: Add
+    - `-`: Remove
+    - `=`: Set
+- Permission
+    - `r`: Read
+    - `w`: Write
+    - `x`: Exeute
+    - `X`: Conditional Execute
+    - `s`: Set Execution Effective ID
+    - `t`: Sticky
+- Numerical: `XXX`
+    - Each Digit Stands for User, Group, Other
+    - Octual
+    - After trans to binary, `1` for permit, `0` for block

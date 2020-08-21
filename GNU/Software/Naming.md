@@ -1,0 +1,4 @@
+# Naming
+
+- Suffix
+    - `d`: Daemon

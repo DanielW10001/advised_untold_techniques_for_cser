@@ -1,0 +1,6 @@
+# Define
+
+```python
+class <ClassName>:
+    ...
+```

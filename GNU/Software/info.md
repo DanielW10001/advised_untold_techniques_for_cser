@@ -1,0 +1,5 @@
+# info
+
+```man
+info SUBJECT
+```

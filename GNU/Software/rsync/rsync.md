@@ -1,0 +1,152 @@
+# rsync: Remove Sync
+
+## 1. CLI
+
+```man
+rsync [OPTION]... ([rsync://][[USER@]HOST[:]](:PORT/|:)SRC)... [rsync://][[USER@]HOST[:]](:PORT/|:)DEST
+```
+
+- Protocol: `rsync://`, `::` indicate rsync daemon, otherwise `file://` or `ssh://`
+- `OPTION`
+    - Scan
+        - `-a`, `--archive`: Archiving Mode
+            - Equals to `-rlptgoD`
+        - `-r`, `--recursive`
+        - `--iconv=CONVERT_SPEC`: Charset conversion of filenames
+        - `-d`, `--dirs`: Dirs Only
+        - `-x`, `--one-file-system`: Do not cross filesystem boundaries
+        - `-m`, `--prune-empty-dirs`: Ignore empty dir chains
+        - `-y`, `--fuzzy`: Find similar file for bases if no dest file
+    - Write
+        - `-n`, `--dry-run`
+        - `-W`, `--whole-file`: Copy files wholely instead of partially
+        - `-R`, `--relative`: Relative Path
+        - `-u`, `--update`: Not overriding newer files
+        - `--inplace`: Override dest files in-place
+        - `--append[-verify]`: Append data onto shorter files
+        - `-b`, `--backup`: Make Backup
+            - `--backup-dir=DIR`
+            - `--suffix=SUFFIX`: Backup Suffix
+        - `--preallocate`: Pre allocate disk space
+        - `-B`, `--block-size=SIZE`: Force a fixed checksum block-size
+        - `--existing`: Skip creating new file on receiver
+        - `--ignore-existing`: Skip updating existed files on receiver
+        - `--remove-source-files`: Remove synced file (but not dirs) from sender
+        - `--delete`: Delete extraneous files from destination dirs
+        - `--delete-before`: Receiver deletes before transfer
+        - `--del`, `--delete-during`: Receiver deletes during transfer
+        - `--delete-delay`: Receiver finds deletions during, deletes after
+        - `--delete-after`: Receiver deletes after transfer
+        - `--delete-excluded`: Delete excluded files from destination
+        - `--ignore-errors`: Delete ignoring I/O errors
+        - `--force`: Force delete non-empty dirs
+        - `--max-delete=NUM`: Max deletion count
+        - `-T`, `--temp-dir=DIR`
+        - `--link-dest=DIR`: Hardlink to files in `DIR` when unchanged
+    - File Attribute
+        - `--fake-super`: Store/Recover privileged attrs with xattrs
+        - Mode
+            - `--chmod=MODE`: Change mode
+        - Owner
+            - `--numeric-ids`: Use U/GID instead of name
+            - `--usermap=STRING`: Custom username mapping
+            - `--groupmap=STRING`: Custom groupname mapping
+            - `--chown=USER:GROUP`
+        - Mod/Access Time
+            - `--noatime`: Do not alter access time when opening source files
+    - Special File
+        - `--copy-devices`: Copy device contents as regular file
+        - `-S`, `--sparse`: Turn null sequences into sparse blocks
+        - Symlinks
+            - `-l`, `--links`: Copy symlinks as symlinks without transform
+            - `-L`, `--copy-links`: Transform symlinks into refed files/dirs
+            - `--copy-unsafe-links`: Only unsafe symlinks are transformed into refed files/dirs
+            - `--safe-links`: Ignore symlinks pointing out of range
+            - `--munge-links`: Safer symlinks but Unusable
+            - `-k`, `--copy-dirlinks`: Transform symlink to dir into refed dir
+            - `-K`, `--keep-dirlinks`: Treat symlinked dir on receiver as dir
+    - Preserve
+        - `-H`, `--hard-links`: Hard links
+        - `-p`, `--perms`: Permissions
+        - `-E`, `--executability`: Executability
+        - `-A`, `--acls`: ACL
+        - `-X`, `--xattrs`: Extended Attributes
+        - `-o`, `--owner`: Owner
+        - `-g`, `--group`: Group
+        - `--devices`: Devices
+        - `--specials`: Special Files
+        - `-D`: `--devices --specials`
+        - `-t`, `--times`: Modification Times
+            - `-O`, `--omit-dir-times`: Omit dir from `--times`
+            - `-J`, `--omit-link-times`: Omit symlinks from `--times`
+    - Run Time
+        - `--timeout=SEC`: I/O timeout
+        - `--contimeout=SEC`: Daemon connection timeout
+        - `--stop-at=YYYY-MM-DDTHH:MM`
+        - `--time-limit=MIN`
+    - Compare
+        - `--checksum-choice=ALG`: Checksum algorithm
+        - `-c`, `--checksum`: Hash Skipping
+        - `-I`, `--ignore-times`: Overriding files even match in size and modification time
+        - `--size-only`: Skip files match in size
+        - `-@`, `--modify-window=NUM`: Accuracy of mod time comparison
+        - `--compare-dest=DIR`: Also compare dest files relative to `DIR`
+        - `--copy-dest=DIR`: Also compare dest files relative to `DIR` and include copies of unchanged files
+        - `--checksum-seed=NUM`
+    - Batch
+        - `--write-batch=FILE`: Write a batched update to `FILE`
+        - `--only-write-batch=FILE`: Write a batched update to `FILE` without updating destination
+        - `--read-batch=FILE`
+    - Log
+        - `-v`, `--verbose`
+        - `--stats`: Print stats
+        - `-8`, `--8-bit-output`: Leave high-bit chars unescaped in output
+        - `-h`, `--human-readable`: Human-readable number format
+        - `--prograss`
+        - `-i`, `--itemize-changes`: Print update summary
+        - `--out-format=FORMAT`: Print format
+        - `--log-file=FILE`
+        - `--log-file-format=FORMAT`
+        - `--list-only`: List files only, but not copying them
+        - `--outbuf=N|L|B`: Output buffering to `None`, `Line`, `Block`
+    - Filter
+        - `-C`, `--cvs-exclude`: Ignore file like CVS
+        - `-f`, `--filter=RULE`: File filter
+        - `-F`: `--filter='dir-merge /.rsync-filter'`
+        - `-FF`: `--filter='- .rsync-filter'`
+        - `--exclude=PATTERN`
+        - `--exclude-from=PATTERN_FILE`
+        - `--include=PATTERN`: Exclude exception
+        - `--include-from=PATTERN_FILE`: Exclude exception
+        - `--files-from=FILE`: Read source file names from `FILE`
+        - `-0`, `--from0`: All `*-from/filter` files are delimited by `0`s
+    - Argument
+        - `-s`, `--protect-args`: No space-splitting; only wildcard special-chars
+        - `--ignore-missing-args`: Ignore missing source args without error
+        - `--delete-missing-args`: Delete missing source args from destination
+        - `-M`, `--remote-option=OPTION`: Remote side only option
+        - `--no-OPTION` to turn off implied option
+    - Transfer
+        - `-P`: `--partial --progress`
+        - `--max-size=SIZE`: Max file transfer size
+        - `--min-size=SIZE`: Min file transfer size
+        - `--partial`: Keep partially transferred files
+        - `--partial-dir=DIR`: Put partially transferred file in `DIR`
+        - `--delay-updates`: Transfer updated files last
+        - `--bwlimit=RATE`: Socket I/O bandwidth
+    - Connection
+        - `--addess=ADDR`: Bind address for outgoing socket to daemon
+        - `--port=PORT`: Double-colon alternate port
+        - `--sockopts=OPTIONS`: Custom TCP options
+        - `-4`, `--ipv4`: Prefer IPv4
+        - `-6`, `--ipv6`: Prefer IPv6
+    - Access
+        - `--password-file=FILE`: Daemon-access password from `FILE`
+        - `-e`, `--rsh=SHELL`: Remote shell
+        - `--super`: Receiver as `root`
+        - `--blocking-io`: Blocking I/O for remote shell
+    - Compress
+        - `--compress-level=NUM`
+        - `--skip-compress=SUFFIX`: Skip conpression of files end with `SUFFIX`
+    - `--version`
+    - `-h`, `--help`
