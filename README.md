@@ -2,7 +2,7 @@
 
 Author: Daniel
 
-为BUAA SCSE的CSer们所写的技能清单, 补足教学没有明确要求, 但有价值甚至必要的技能
+为BUAA SCSE的CSer们所写的技能清单, 补充教学没有明确要求, 但有价值甚至必要的技能
 
 技能及部分教学的详细解释与学习资料见第二节.
 
@@ -200,7 +200,7 @@ Author: Daniel
     - [YAML](https://yaml.org/) [Note](YAML.md)
     - [JSON](https://www.json.org/) [Note](JSON.md)
     - XML: Learn by HTML
-    - [HTML] [Note](HTML.md)
+    - [HTML](https://www.w3schools.com/html/) [Note](HTML.md)
     - [HTTP](HTTP.md)
     - [IPv4](https://en.wikipedia.org/wiki/IPv4)/[IPv6](https://en.wikipedia.org/wiki/IPv6)/[CIDR Notation](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing) [Note](Computer_Network)
     - Web Server: [Caddy](https://caddyserver.com/docs/) [Note](Caddy.md)
@@ -208,7 +208,9 @@ Author: Daniel
 ## 3. Copyright & Disclaimer
 
 Copyright (C) Daniel
+
 作者保留对本文档及本仓库内一切作品的一切权利, 不允许任何形式的转载与再分发, 仅允许分享指向本仓库的URL.
+
 该授权作品是"按原样"提供，不做任何明示或暗示的保证，包括但不限于对适销性、特定用途适用性和非侵权性的保证。在任何情况下，无论是在合同诉讼、侵权诉讼或其他诉讼中，版权持有人均不承担因本文档或本文档的使用或其他交易而产生、引起或与之相关的任何索赔、损害或其他责任。
 
 本技能清单意为BUAA SCSE教学的**补充**, 而非**代替**. 本技能清单意为为同学们在学习和竞争中消减信息壁垒, 提供精力和时间的良好投资方向. 本技能清单**不保证**同学们在竞争中取得优势, 仅**希望**能帮助大家走得更顺利.
