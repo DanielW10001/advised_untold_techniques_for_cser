@@ -171,7 +171,7 @@ Author: Daniel
     - Python: [Note](Python)
         - [Learn Python 3 the Hard Way](https://book.douban.com/subject/27094555) 与 [Beginning Python](https://book.douban.com/subject/26883151) 同步阅读: 一本看不懂换另一本, 直到看不懂再换回来
     - [Python 3 Doc](https://docs.python.org/3/): os/os.path/shutil/pathlib/sys/subprocess/pip/pprint/time/fileinput/tempfile/json/argparse/re/math/random/warnings/timeit/cmd/csv/datetime/decimal/hashlib
-    - [numpy](https://numpy.org/learn/)/[matplotlib](https://matplotlib.org/tutorials/index.html)/[tqdm](https://github.com/tqdm/tqdm)/[Poetry](https://python-poetry.org/docs/)/[httpx](https://www.python-httpx.org/)/[beautifulsoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)/[mpmath](http://mpmath.org/doc/current/basics.html)
+    - [numpy](https://numpy.org/learn/)/[matplotlib](https://matplotlib.org/tutorials/index.html)[CookBook](https://book.douban.com/subject/30394369)/[tqdm](https://github.com/tqdm/tqdm)/[Poetry](https://python-poetry.org/docs/)/[httpx](https://www.python-httpx.org/)/[beautifulsoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)/[mpmath](http://mpmath.org/doc/current/basics.html)
     - [Regex](Regex.md): [PCRE](https://man7.org/linux/man-pages/man3/pcrepattern.3.html)/[ERE/BRE](https://man7.org/linux/man-pages/man7/regex.7.html)/[Glob](https://man7.org/linux/man-pages/man7/glob.7.html)
     - [Vim](https://www.vim.org/docs.php): [Note](Vim_Note.md)
     - [make](https://book.douban.com/subject/3660156/)
@@ -184,7 +184,7 @@ Author: Daniel
     - [License](Software_License.md)
     - [GNU/Linux](https://www.gnu.org/software/coreutils/manual/html_node/) [Note](GNU)
         - [Unix 文件 Mode](https://wiki.archlinux.org/index.php/File_permissions_and_attributes)
-        - [CLI Concept](GNU/CLI/Command.md)
+        - [CLI](https://book.douban.com/subject/6806862) [Concept](GNU/CLI/Command.md)
         - [GNU Manual](https://www.gnu.org/manual/manual.html), [Linux Manual](https://www.kernel.org/doc/man-pages/): grep/cat/tar/ping/passwd/sudo/su/umask/test/touch/mkdir/ls/rm/chmod/chown/cp/mv/man/alias/export/echo/find/wget
         - [scp](https://man.openbsd.org/scp)/[curl](https://curl.haxx.se/docs/manpage.html)/[apt](https://manpages.debian.org/buster/apt/apt.8.en.html)/[pacman](https://wiki.archlinux.org/index.php/pacman)
         - ufw: [Gradual Introduction](https://help.ubuntu.com/community/UFW) [Manual](http://manpages.ubuntu.com/manpages/focal/en/man8/ufw.8.html)
