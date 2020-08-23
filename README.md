@@ -32,8 +32,8 @@ Author: Daniel
         - ML: Machine Learning
 - 请在运用领域 (课程) 开始前或过程中提升技能至Useful
 
-|                                                                     技能                                                                      |  TIU  | TIM  |                    Value                    |                                  前置技能                                  |
-| :-------------------------------------------------------------------------------------------------------------------------------------------: | :---: | :--: | :-----------------------------------------: | :-----------------------------------------------------------------------: |
+|                                                                     技能                                                                      |  TIU  | TIM  |                    Value                    |                                 前置技能                                  |
+| :-------------------------------------------------------------------------------------------------------------------------------------------: | :---: | :--: | :-----------------------------------------: | :----------------------------------------------------------------------: |
 |                                                                    学习状态                                                                    |       |      |                                             |                                                                          |
 |                                                                    良好作息                                                                    |  14D  |  1Y  |                   学业: 8                   |                                                                          |
 |                                                                    体能锻炼                                                                    |  21D  |  3Y  |                   学业: 8                   |                                                                          |
@@ -66,7 +66,7 @@ Author: Daniel
 |                                                                程序设计与自动化                                                                 |       |      |                                             |                                                                          |
 |                                                                    Python                                                                     |  1W   |  3M  |        工程能力: 8; CO&OO&Algo&SE: 7         |                                                                          |
 | os/os.path/shutil/pathlib/</br>sys/subprocess/pip/pprint/</br>time/fileinput/tempfile/json/</br>argparse/re/numpy/</br>matplotlib/math/random |  3W   |  3M  |        工程能力: 10; CO&OO&Algo&SE: 9        |                                  Python                                   |
-|                       tqdm/Poetry/warnings/timeit/</br>cmd/csv/datetime/httpx/</br>beautifulsoup/decimal/mpmath/hashlib                       |  8W   |  5M  |                 工程能力: 8                  |                                  Python                                   |
+|                  tqdm/Poetry/warnings/timeit/</br>cmd/csv/datetime/httpx/requests/</br>beautifulsoup/decimal/mpmath/hashlib                   |  8W   |  5M  |                 工程能力: 8                  |                                  Python                                   |
 |                                                                     Regex                                                                     |       |      |                                             |                                                                          |
 |                                                                     PCRE                                                                      |  5H   |  1D  |     工程能力: 9; CO&OO&OS&Compiler&SE: 8     |                                                                          |
 |                                                                 ERE/BRE/Glob                                                                  |  5H   |  1D  |              工程能力: 9; OS: 9              |                                                                          |
@@ -80,9 +80,10 @@ Author: Daniel
 |                                                              PyTorch/TensorFlow                                                               |  3W   |  3M  |                 ML&竞赛: 8                  |                                                                          |
 |                                                                    License                                                                    |  1H   |  5H  |                   开源: 7                   |                                                                          |
 |                                                                   GNU/Linux                                                                   |  3W   |  3M  |         工程能力&OS: R; Compiler: 8          |                                                                          |
+|                                                                     WSL2                                                                      |  1D   |  1M  |           工程能力: 9; Compiler: 8           |                                                                          |
 |                                                                Unix 文件 Mode                                                                 | 0.5H  |  3H  |                工程能力&OS: R                |                                                                          |
 |                                                                  CLI Concept                                                                  | 0.5H  | 0.5H |                工程能力&OS: R                |                                                                          |
-|                                                           CLI Utilities (See Below)                                                           | 20.5H |  1M  |              工程能力: 8; OS: 6              |                                                                          |
+|                                                           CLI Utilities (See Below)                                                           | 26.5H |  1M  |              工程能力: 8; OS: 6              |                                                                          |
 |                                                                    systemd                                                                    |  1W   |  1M  |                 工程能力: 8                  |                                                                          |
 |                                                                     Bash                                                                      |  1H   |  1W  |         工程能力: 8; OS&Compiler: 8          |                                                                          |
 |                                                                  Powershell                                                                   |  1H   |  1W  |     工程能力: 8; CO&OO&OS&Compiler&SE: 6     |                                                                          |
@@ -99,7 +100,7 @@ Author: Daniel
 |                                                            IPv4/IPv6/CIDR Notation                                                            | 0.5H  | 0.5H |      工程能力: 6; 互联网连接: 自建服务: R      |                                                                          |
 |                                                                  Web Server                                                                   |  1D   |  1M  |      工程能力: 6; 互联网连接: 自建服务: R      |                                                                          |
 
-| CLI Utilities | 20.5H |  1M  |         工程能力: 8; OS: 6         |
+| CLI Utilities | 26.5H |  1M  |         工程能力: 8; OS: 6         |
 | :-----------: | :---: | :--: | :-------------------------------: |
 |      scp      |  1H   |  1D  |         工程能力: 8; OS: R         |
 |     grep      |  1H   |  1D  |         工程能力: 9; OS: R         |
@@ -126,6 +127,9 @@ Author: Daniel
 |    export     | 0.5H  |  1H  |            工程能力: R             |
 |     echo      | 0.5H  |  3H  |            工程能力: 7             |
 |     find      |  1H   |  1D  |         工程能力: 8; OS: 6         |
+|      nnn      |  2H   |  1D  |            工程能力: 6             |
+|       z       |  1H   |  5H  |            工程能力: 8             |
+|     tmux      |  3H   |  1W  |         工程能力: 8; OS: 7         |
 
 ## 2. 解释与资料
 
@@ -134,7 +138,7 @@ Author: Daniel
 - 学习状态: 睡眠, 锻炼, 成瘾, 情绪是决定状态的因素. 其中任何一个失控都将导致其余因素的失控.
     - 睡眠: 7-8H, 午饭后0.5H
     - 锻炼: 体能锻炼, 每天长跑, 难以坚持的话健走, 汗湿透T恤即可
-    - 成瘾: 任何刺激大脑奖励机制, 强烈, 即时, 稳定的正反馈都是潜在的成瘾对象, 包括但不限于糖, 咖啡因, 新信息 (新闻, 推送, 故事, 趣图), 游戏, 小说, 漫画, 视频
+    - 成瘾: 任何刺激大脑奖励机制, 强烈, 即时, 稳定的正反馈都是潜在的成瘾对象, 包括但不限于糖, 咖啡因, 新信息 (新闻, 推送, 故事, 趣图), 游戏, 小说, 漫画, 视频, 社交 (水群, 朋友圈)
         - 改进方式: 每一次冲动发生时, 自我暗示
     - 情绪: 稳健的人格与心态, 避免 "某件事对自己的快乐/不痛苦是必须的" 的心态, 否则所依赖的事物的状态将极大影响自己的情绪
         - [伯恩斯新情绪疗法](https://book.douban.com/subject/5980113/)
@@ -175,7 +179,7 @@ Author: Daniel
     - Python: [Note](Python)
         - [Learn Python 3 the Hard Way](https://book.douban.com/subject/27094555) 与 [Beginning Python](https://book.douban.com/subject/26883151) 同步阅读: 一本看不懂换另一本, 直到看不懂再换回来
     - [Python 3 Doc](https://docs.python.org/3/): os/os.path/shutil/pathlib/sys/subprocess/pip/pprint/time/fileinput/tempfile/json/argparse/re/math/random/warnings/timeit/cmd/csv/datetime/decimal/hashlib
-    - [numpy](https://numpy.org/learn/)/[matplotlib](https://matplotlib.org/tutorials/index.html)[CookBook](https://book.douban.com/subject/30394369)/[tqdm](https://github.com/tqdm/tqdm)/[Poetry](https://python-poetry.org/docs/)/[httpx](https://www.python-httpx.org/)/[beautifulsoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)/[mpmath](http://mpmath.org/doc/current/basics.html)
+    - [numpy](https://numpy.org/learn/)/[matplotlib](https://matplotlib.org/tutorials/index.html)[CookBook](https://book.douban.com/subject/30394369)/[tqdm](https://github.com/tqdm/tqdm)/[Poetry](https://python-poetry.org/docs/)/[httpx](https://www.python-httpx.org/)/[requests](https://requests.readthedocs.io/en/master/)/[beautifulsoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)/[mpmath](http://mpmath.org/doc/current/basics.html)
     - [Regex](Regex.md): [PCRE](https://man7.org/linux/man-pages/man3/pcrepattern.3.html)/[ERE/BRE](https://man7.org/linux/man-pages/man7/regex.7.html)/[Glob](https://man7.org/linux/man-pages/man7/glob.7.html)
     - [Vim](https://www.vim.org/docs.php): [Note](Vim_Note.md)
     - [make](https://book.douban.com/subject/3660156/)
@@ -187,11 +191,13 @@ Author: Daniel
     - PyTorch/TensorFlow: Find a textbook suitable for you.
     - [License](Software_License.md)
     - [GNU/Linux](https://www.gnu.org/software/coreutils/manual/html_node/) [Note](GNU)
+        - [WSL2](https://docs.microsoft.com/en-us/windows/wsl/wsl2-index)
         - [Unix 文件 Mode](https://wiki.archlinux.org/index.php/File_permissions_and_attributes)
         - [CLI](https://book.douban.com/subject/6806862) [Concept](GNU/CLI/Command.md)
         - [GNU Manual](https://www.gnu.org/manual/manual.html), [Linux Manual](https://www.kernel.org/doc/man-pages/): grep/cat/tar/ping/passwd/sudo/su/umask/test/touch/mkdir/ls/rm/chmod/chown/cp/mv/man/alias/export/echo/find/wget
-        - [scp](https://man.openbsd.org/scp)/[curl](https://curl.haxx.se/docs/manpage.html)/[apt](https://manpages.debian.org/buster/apt/apt.8.en.html)/[pacman](https://wiki.archlinux.org/index.php/pacman)
+        - [scp](https://man.openbsd.org/scp)/[curl](https://curl.haxx.se/docs/manpage.html)/[apt](https://manpages.debian.org/buster/apt/apt.8.en.html)/[pacman](https://wiki.archlinux.org/index.php/pacman)/[nnn](https://github.com/jarun/nnn)/[z](https://github.com/rupa/z)
         - ufw: [Gradual Introduction](https://help.ubuntu.com/community/UFW) [Manual](http://manpages.ubuntu.com/manpages/focal/en/man8/ufw.8.html)
+        - tmux: [Book](https://book.douban.com/subject/26959790/) [Cheat Sheet](https://gist.github.com/MohamedAlaa/2961058)
         - systemd: Gentle Guide: [Essential](https://www.digitalocean.com/community/tutorials/systemd-essentials-working-with-services-units-and-the-journal), [Unit](https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and-unit-files), [systemctl](https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units), [journalctl](https://www.digitalocean.com/community/tutorials/how-to-centralize-logs-with-journald-on-ubuntu-20-04)
             - [Doc](https://systemd.io)
     - [Bash](https://www.gnu.org/software/bash/manual/bash.html) [Note](bash.md)
