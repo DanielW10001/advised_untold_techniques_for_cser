@@ -222,19 +222,7 @@ Author: Daniel
     - [IPv4](https://en.wikipedia.org/wiki/IPv4)/[IPv6](https://en.wikipedia.org/wiki/IPv6)/[CIDR Notation](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing) [Note](Computer_Network)
     - Web Server: [Caddy](https://caddyserver.com/docs/) [Note](Caddy.md)
 
-## 3. Copyright & Disclaimer
-
-Copyright (C) Daniel
-
-作者保留对本文档及本仓库内一切作品的一切权利, 不允许任何形式的转载与再分发, 仅允许分享指向本仓库的URL.
-
-该授权作品是"按原样"提供，不做任何明示或暗示的保证，包括但不限于对适销性、特定用途适用性和非侵权性的保证。在任何情况下，无论是在合同诉讼、侵权诉讼或其他诉讼中，版权持有人均不承担因本文档或本文档的使用或其他交易而产生、引起或与之相关的任何索赔、损害或其他责任。
-
-本技能清单意为BUAA SCSE教学的**补充**, 而非**代替**. 本技能清单意为为同学们在学习和竞争中消减信息壁垒, 提供精力和时间的良好投资方向. 本技能清单**不保证**同学们在竞争中取得优势, 仅**希望**能帮助大家走得更顺利.
-
-由于本人才疏学浅, 本清单难免有缺漏甚至错误, 其中的判断也可能不尽正确, 请不吝指正. 本文档的更新版本将于[GitHub](https://github.com/DanielW10001/advised_techniques_for_cser)发布, 请留意后续可能的修正.
-
-## 4. Acknowledge
+## 3. Acknowledge
 
 我希望在此感谢一位同学, 虽不能透露TA的身份, 但TA与我的交流中所谈论的困扰和处境, 是我发起这个项目的原因.
 
@@ -246,10 +234,22 @@ Copyright (C) Daniel
 
 "此后如竟没有炬火: 我便是唯一的光." 竞争是无法改变的事实, 但希望你我能在竞争中保留对彼此的善意和尊重. 与诸位共勉.
 
-## 5. Contribution
+## 4. Contribution
 
 - PR & Issue are more than welcomed
 - TODO
     - 名词解释表格: |名词|描述|
     - Python模块子表格: |技能|TIU|TIM|Value|前置技能|
+
+## 5. Copyright & Disclaimer
+
+Copyright (C) Daniel
+
+作者保留对本文档及本仓库内一切作品的一切权利, 不允许任何形式的转载与再分发, 仅允许分享指向本仓库的URL.
+
+该授权作品是"按原样"提供，不做任何明示或暗示的保证，包括但不限于对适销性、特定用途适用性和非侵权性的保证。在任何情况下，无论是在合同诉讼、侵权诉讼或其他诉讼中，版权持有人均不承担因本文档或本文档的使用或其他交易而产生、引起或与之相关的任何索赔、损害或其他责任。
+
+本技能清单意为BUAA SCSE教学的**补充**, 而非**代替**. 本技能清单意为为同学们在学习和竞争中消减信息壁垒, 提供精力和时间的良好投资方向. 本技能清单**不保证**同学们在竞争中取得优势, 仅**希望**能帮助大家走得更顺利.
+
+由于本人才疏学浅, 本清单难免有缺漏甚至错误, 其中的判断也可能不尽正确, 请不吝指正. 本文档的更新版本将于[GitHub](https://github.com/DanielW10001/advised_techniques_for_cser)发布, 请留意后续可能的修正.
 
