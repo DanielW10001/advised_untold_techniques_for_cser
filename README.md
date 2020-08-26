@@ -221,6 +221,37 @@ Author: Daniel
     - [HTTP](HTTP.md)
     - [IPv4](https://en.wikipedia.org/wiki/IPv4)/[IPv6](https://en.wikipedia.org/wiki/IPv6)/[CIDR Notation](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing) [Note](Computer_Network)
     - Web Server: [Caddy](https://caddyserver.com/docs/) [Note](Caddy.md)
+- 数学:
+    - 数学分析
+    - 线性代数
+    - 概率论与随机过程
+    - 数理统计
+    - 数论
+    - 组合数学
+    - 离散数学
+    - 具体数学
+    - 博弈论
+    - 图论
+    - 数学建模
+    - 优化
+- 计算机:
+    - C
+    - C++
+    - 程序设计
+        - OJ: [题解](https://github.com/GoatGirl98/Walkthrough-of-ACCoding-in-BUAA)/[标程](https://github.com/Great-designer/BUAA-OJ-Project)
+    - 数据结构
+    - CO
+    - Java
+    - OS
+    - OO
+    - Algo
+    - Android
+    - Compiler
+    - Database
+    - ML
+    - CN
+    - SE
+- 物理
 
 ## 3. Acknowledge
 
@@ -234,12 +265,15 @@ Author: Daniel
 
 "此后如竟没有炬火: 我便是唯一的光." 竞争是无法改变的事实, 但希望你我能在竞争中保留对彼此的善意和尊重. 与诸位共勉.
 
+OJ的题解和标程是GoatGirl98及Great-designer两位同学的工作成果. 在此向他们表示感谢! 特别向GoatGirl98同学为构建良性竞争环境而付出努力的信念表示敬意!
+
 ## 4. Contribution
 
 - PR & Issue are more than welcomed
 - TODO
     - 名词解释表格: |名词|描述|
     - Python模块子表格: |技能|TIU|TIM|Value|前置技能|
+    - 课程体系内容的学习资料和建议
 
 ## 5. Copyright & Disclaimer
 
