@@ -193,7 +193,7 @@ Author: Daniel
     - [WinSW](https://github.com/winsw/winsw) [Note](WinSW.md)
 - 工程能力
     - [OpenSSH](https://www.openssh.com/manual.html) [Config](https://man.openbsd.org/ssh_config) [Note](OpenSSH)
-    - Git: [Pro Git](https://git-scm.com/book/en/v2)
+    - Git: [Pro Git](https://git-scm.com/book/en/v2) [Note](Git.md)
     - [Sematic Versioning](https://semver.org/)
     - PyTorch/TensorFlow: Find a textbook suitable for you.
     - [License](Software_License.md)
@@ -267,6 +267,10 @@ Author: Daniel
 
 OJ的题解和标程是GoatGirl98及Great-designer两位同学的工作成果. 在此向他们表示感谢! 特别向GoatGirl98同学为构建良性竞争环境而付出努力的信念表示敬意!
 
+感谢以下贡献者及他们的工作:
+
+- Robert-Muller同学所贡献的Git笔记
+
 ## 4. Contribution
 
 - PR & Issue are more than welcomed
@@ -277,11 +281,11 @@ OJ的题解和标程是GoatGirl98及Great-designer两位同学的工作成果. �
 
 ## 5. Copyright & Disclaimer
 
-Copyright (C) Daniel
+Copyright (C) Daniel and Other Contributors
 
 作者保留对本文档及本仓库内一切作品的一切权利, 不允许任何形式的转载与再分发, 仅允许分享指向本仓库的URL.
 
-该授权作品是"按原样"提供，不做任何明示或暗示的保证，包括但不限于对适销性、特定用途适用性和非侵权性的保证。在任何情况下，无论是在合同诉讼、侵权诉讼或其他诉讼中，版权持有人均不承担因本文档或本文档的使用或其他交易而产生、引起或与之相关的任何索赔、损害或其他责任。
+该授权作品是"按原样"提供, 不做任何明示或暗示的保证, 包括但不限于对适销性、特定用途适用性和非侵权性的保证. 在任何情况下, 无论是在合同诉讼、侵权诉讼或其他诉讼中, 版权持有人均不承担因本文档或本文档的使用或其他交易而产生、引起或与之相关的任何索赔、损害或其他责任.
 
 本技能清单意为BUAA SCSE教学的**补充**, 而非**代替**. 本技能清单意为为同学们在学习和竞争中消减信息壁垒, 提供精力和时间的良好投资方向. 本技能清单**不保证**同学们在竞争中取得优势, 仅**希望**能帮助大家走得更顺利.
 
