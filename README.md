@@ -1,4 +1,4 @@
-# Advised Untold Techniques for CSer
+R Advised Untold Techniques for CSer
 
 Author: Daniel
 
@@ -86,7 +86,7 @@ Author: Daniel
 |                                                                     WSL2                                                                      |  1D   |  1M  |           工程能力: 9; Compiler: 8           |                                                                          |
 |                                                                Unix 文件 Mode                                                                 | 0.5H  |  3H  |                工程能力&OS: R                |                                                                          |
 |                                                                  CLI Concept                                                                  | 0.5H  | 0.5H |                工程能力&OS: R                |                                                                          |
-|                                                           CLI Utilities (See Below)                                                           | 26.5H |  1M  |              工程能力: 8; OS: 6              |                                                                          |
+|                                                           CLI Utilities (See Below)                                                           | 27.5H |  1M  |              工程能力: 8; OS: 6              |                                                                          |
 |                                                                    systemd                                                                    |  1W   |  1M  |                 工程能力: 8                  |                                                                          |
 |                                                                     Bash                                                                      |  1H   |  1W  |         工程能力: 8; OS&Compiler: 8          |                                                                          |
 |                                                                  Powershell                                                                   |  1H   |  1W  |     工程能力: 8; CO&OO&OS&Compiler&SE: 6     |                                                                          |
@@ -102,8 +102,9 @@ Author: Daniel
 |                                                                     HTTP                                                                      | 0.5H  |  3H  |                 工程能力: 6                  |                                                                          |
 |                                                            IPv4/IPv6/CIDR Notation                                                            | 0.5H  | 0.5H |      工程能力: 6; 互联网连接: 自建服务: R      |                                                                          |
 |                                                                  Web Server                                                                   |  1D   |  1M  |      工程能力: 6; 互联网连接: 自建服务: R      |                                                                          |
+|                                                                  TeamViewer                                                                   | 0.5H  |  1H  |            泛平台/移动工作能力: 5             |                                                                          |
 
-| CLI Utilities | 26.5H |  1M  |         工程能力: 8; OS: 6         |
+| CLI Utilities | 27.5H |  1M  |         工程能力: 8; OS: 6         |
 | :-----------: | :---: | :--: | :-------------------------------: |
 |      scp      |  1H   |  1D  |         工程能力: 8; OS: R         |
 |     grep      |  1H   |  1D  |         工程能力: 9; OS: R         |
@@ -133,6 +134,7 @@ Author: Daniel
 |      nnn      |  2H   |  1D  |            工程能力: 6             |
 |       z       |  1H   |  5H  |            工程能力: 8             |
 |     tmux      |  3H   |  1W  |         工程能力: 8; OS: 7         |
+|     tldr      |  1H   |  1H  |            工程能力: 7             |
 
 ## 2. 解释与资料
 
@@ -205,6 +207,7 @@ Author: Daniel
         - [scp](https://man.openbsd.org/scp)/[curl](https://curl.haxx.se/docs/manpage.html)/[apt](https://manpages.debian.org/buster/apt/apt.8.en.html)/[pacman](https://wiki.archlinux.org/index.php/pacman)/[nnn](https://github.com/jarun/nnn)/[z](https://github.com/rupa/z)
         - ufw: [Gradual Introduction](https://help.ubuntu.com/community/UFW) [Manual](http://manpages.ubuntu.com/manpages/focal/en/man8/ufw.8.html)
         - tmux: [Book](https://book.douban.com/subject/26959790/) [Cheat Sheet](https://gist.github.com/MohamedAlaa/2961058)
+        - [tldr](https://github.com/tldr-pages/tldr)
         - systemd: Gentle Guide: [Essential](https://www.digitalocean.com/community/tutorials/systemd-essentials-working-with-services-units-and-the-journal), [Unit](https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and-unit-files), [systemctl](https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units), [journalctl](https://www.digitalocean.com/community/tutorials/how-to-centralize-logs-with-journald-on-ubuntu-20-04)
             - [Doc](https://systemd.io)
     - [Bash](https://www.gnu.org/software/bash/manual/bash.html) [Note](bash.md)
@@ -221,6 +224,7 @@ Author: Daniel
     - [HTTP](HTTP.md)
     - [IPv4](https://en.wikipedia.org/wiki/IPv4)/[IPv6](https://en.wikipedia.org/wiki/IPv6)/[CIDR Notation](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing) [Note](Computer_Network)
     - Web Server: [Caddy](https://caddyserver.com/docs/) [Note](Caddy.md)
+    - [TeamViewer](https://www.teamviewer.com/)
 - 数学:
     - 数学分析
     - 线性代数
@@ -255,6 +259,8 @@ Author: Daniel
 
 ## 3. Acknowledge
 
+### 3.1. Motivation
+
 我希望在此感谢一位同学, 虽不能透露TA的身份, 但TA与我的交流中所谈论的困扰和处境, 是我发起这个项目的原因.
 
 我清楚这些资料在客观上将提高竞争的激烈程度, 而如此数量的文档发布, 也有泄露隐私的风险.
@@ -265,7 +271,15 @@ Author: Daniel
 
 "此后如竟没有炬火: 我便是唯一的光." 竞争是无法改变的事实, 但希望你我能在竞争中保留对彼此的善意和尊重. 与诸位共勉.
 
+### 3.2. Referred
+
 OJ的题解和标程是GoatGirl98及Great-designer两位同学的工作成果. 在此向他们表示感谢! 特别向GoatGirl98同学为构建良性竞争环境而付出努力的信念表示敬意!
+
+### 3.3. Issuer
+
+感谢为本项目建言献策, 给予指导的各位同学, 他们是: Pantw, 春日野草, DDoSolitary, rpplus
+
+### 3.4. Contributor
 
 感谢以下贡献者及他们的工作:
 
@@ -278,6 +292,11 @@ OJ的题解和标程是GoatGirl98及Great-designer两位同学的工作成果. �
     - 名词解释表格: |名词|描述|
     - Python模块子表格: |技能|TIU|TIM|Value|前置技能|
     - 课程体系内容的学习资料和建议
+- Proposed but Rejected Techniques because not considered essential for beginners
+    - GNU/Linux
+        - fd
+    - CLI Utility
+        - locate
 
 ## 5. Copyright & Disclaimer
 
