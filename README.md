@@ -44,7 +44,7 @@ Author: Daniel
 |                                                                   Markdown                                                                    |  1H   |  1H  |                笔记与论文: 5                 |                                                                          |
 |                                                                     VNote                                                                     | 0.5H  |  3H  |                笔记与论文: 7                 |                                                                          |
 |                                                                   RMarkdown                                                                   |  3H   |  1D  |                笔记与论文: 7                 |                                                                          |
-|                                                               Jupyter Notebook                                                                |  2D   |  1W  |               笔记: 4; ML: 7                |                                                                          |
+|                                                                  Jupyter Lab                                                                  |  2D   |  1W  |               笔记: 4; ML: 7                |                                                                          |
 |                                                                 LaTeX数学公式                                                                  |  1H   |  2H  |                笔记与论文: 7                 |                                                                          |
 |                                                                     LaTeX                                                                     |  5D   |  2M  |            笔记: 2; 论文&竞赛: 6             |                                                                          |
 |                                                                   reveal.js                                                                   |  5H   |  8H  |                 竞赛&展示: 8                 |                                                                          |
@@ -104,8 +104,8 @@ Author: Daniel
 |                                                                  Web Server                                                                   |  1D   |  1M  |      工程能力: 6; 互联网连接: 自建服务: R      |                                                                          |
 |                                                                  TeamViewer                                                                   | 0.5H  |  1H  |            泛平台/移动工作能力: 5             |                                                                          |
 
-| CLI Utilities | 27.5H |  1M  |         工程能力: 8; OS: 6         |
-| :-----------: | :---: | :--: | :-------------------------------: |
+| CLI Utilities | 27.5H | 1M  | 工程能力: 8; OS: 6 |
+| :-----------: | :---: | :-: | :---------------: |
 |      scp      |  1H   |  1D  |         工程能力: 8; OS: R         |
 |     grep      |  1H   |  1D  |         工程能力: 9; OS: R         |
 |   curl/wget   |  1H   |  1D  |            工程能力: 7             |
@@ -156,13 +156,15 @@ Author: Daniel
     - [VNote](https://github.com/tamlok/vnote):
         - [Doc](https://tamlok.gitee.io/vnote/zh_cn/#!docs/%E7%94%A8%E6%88%B7/%E6%AC%A2%E8%BF%8E%E4%BD%BF%E7%94%A8.md)
         - 插件: 本地[MathJax](https://github.com/mathjax/MathJax/archive/master.zip)库 (需要互联网接入), 本地 [PlantUML](http://plantuml.com/en/guide) [Jar](http://sourceforge.net/projects/plantuml/files/plantuml.jar/download) (Alternative [Guide](https://crashedmind.github.io/PlantUMLHitchhikersGuide/))
-    - [RMarkdown](https://bookdown.org/yihui/rmarkdown/)
-        - [Inline Python](https://rstudio.github.io/reticulate/articles/r_markdown.html)
+    - RMarkdown
+        - [Intro](https://rmarkdown.rstudio.com/lesson-1.html)
+        - [R Markdown](https://bookdown.org/yihui/rmarkdown/)
+        - [Gallery](https://rmarkdown.rstudio.com/gallery.html)
         - [Bookdown](https://bookdown.org/yihui/bookdown/)
+        - [Blogdown](https://bookdown.org/yihui/blogdown/)
         - [Thesisdown](https://github.com/ismayc/thesisdown)
-        - [Publications](https://bookdown.org/)
-    - [Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/stable/)
-        - [Jupyter Notebook](https://jupyterlab.readthedocs.io/en/latest/)
+    - [Jupyter Lab](https://jupyterlab.readthedocs.io/en/latest/)
+        - [Fastpages](https://github.com/fastai/fastpages)
     - [LaTeX数学公式](LaTeX.md)
     - [LaTeX](http://www.ctan.org/tex-archive/info/lshort/english/lshort.pdf)
     - [reveal.js](https://github.com/hakimel/reveal.js) [Doc (网页右上角)](https://revealjs.com/) [Note](Reveal.js.md)
