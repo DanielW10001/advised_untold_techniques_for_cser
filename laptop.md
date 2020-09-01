@@ -109,20 +109,36 @@ Author: Daniel (danielw10001@gmail.com)
 ## 2. 参考资料
 
 参数解析与科普:
+
 https://space.bilibili.com/14871346/
+
 https://zhuanlan.zhihu.com/p/64273719
+
 https://zhuanlan.zhihu.com/p/24671709
+
 https://zhuanlan.zhihu.com/p/27888975
+
 https://zhuanlan.zhihu.com/p/102224874
+
 https://zhuanlan.zhihu.com/p/84580494
+
 https://www.zhihu.com/question/19811077
+
 https://www.zhihu.com/question/31580417
+
 产品一览:
+
 https://mp.weixin.qq.com/s?__biz=MzIxMTAyNjk0OA==&mid=2654606744&idx=1&sn=58c048268c207ae44b08539b995a7bd6&chksm=8c9520f3bbe2a9e5ede0867c35df9888f8e2a8878cbfceafdee73972af2718fdfc6c3204e5a6
+
 产品测评:
+
 https://space.bilibili.com/12434430/
+
 https://space.bilibili.com/489180728/
+
 https://www.notebookcheck.net/ (参数齐全, 非常值得参考)
+
 https://www.youtube.com/channel/UCXuqSBlHAE6Xw-yeJA0Tunw
+
 https://www.youtube.com/channel/UCVYamHliCI9rw1tHR1xbkfw
 
