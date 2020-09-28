@@ -96,6 +96,8 @@ Author: Daniel
 |                                                                    GitHub                                                                     |  2H   |  2W  | 开源: 9; 工程能力&CO&OO&OS&Compiler&SE&ML: 7 |                                 互联网连接                                 |
 |                                                                    Docker                                                                     |  1D   |  1M  |                 工程能力: 8                  |                                                                           |
 |                                                              Excel 数据处理与函数                                                               |  1H   |  2M  |                 物理实验: 9                  |                                                                           |
+|MATLAB|3D|2M|数学建模: 8||
+|R|3D|1M|数学建模: 7||
 |                                                                     YAML                                                                      |  5H   |  7H  |                 工程能力: 5                  |                                                                           |
 |                                                                     JSON                                                                      |  3H   |  5H  |                 工程能力: 8                  |                                                                           |
 |                                                                      XML                                                                      | 0.5H  | 0.5H |                 工程能力: 6                  |                                                                           |
@@ -221,6 +223,8 @@ Author: Daniel
     - [GitHub](https://github.com/): Sign Up, Follow Selected Users, Star, Explore, Learn, Share, Contribute
     - [Docker](https://docs.docker.com/)
     - Excel: Learn by Doing
+    - [MATLAB](https://www.mathworks.com/help/matlab/index.html)
+    - R: [R in Action](https://book.douban.com/subject/24830014/)
     - [YAML](https://yaml.org/) [Note](YAML.md)
     - [JSON](https://www.json.org/) [Note](JSON.md)
     - XML: Learn by HTML
@@ -241,6 +245,8 @@ Author: Daniel
     - 博弈论
     - 图论
     - 数学建模
+        - [Mathematical Modeling](https://book.douban.com/subject/26638205/)
+        - [A First Course in Mathematical Modeling](https://book.douban.com/subject/26577905/)
     - 优化
 - 计算机:
     - C
