@@ -1,38 +1,59 @@
+am: https://jlk.fjfi.cvut.cz/arch/manpages/search?q=%s Arch Manual
+aml: https://www.google.com/search?q=arch+site%3Aarchlinux.org%2Fpipermail%2F+%s Arch Maillist
 arxiv: https://arxiv.org/search/cs?query=%s&searchtype=all&abstracts=show arXiv
-w: https://www.wikipedia.org/w/index.php?search=%s Wikipedia
-wz: https://zh.wikipedia.org/w/index.php?search=%s Wikipedia ZH
+aw: https://wiki.archlinux.org/index.php?search=%s Arch Wiki
+blbl: https://search.bilibili.com/all?keyword=%s bilibili
+bts: https://btsow.digital/search/%s BTSOW
+cg: https://crates.io/search?q=%s Cargo
+db: https://douban.com/search?q=%s douban
+dbb: https://search.douban.com/book/subject_search?search_text=%s douban Books
+dd: https://devdocs.io/#q=%s DevDocs
+fc: https://www.google.com/search?q=site%3Afearlessrevolution.com+%s Fearless Cheat Forum
+fd: https://www.fandom.com/?s=%s Fandom
+foc: https://www.google.com/search?q=site%3Afoldoc.org+%s FoldOC Dict
 g: https://www.google.com/search?q=%s Google
+gd: https://www.gnu.org/cgi-bin/estseek.cgi?phrase=%s GNU Doc
+gf: https://greasyfork.org/zh-CN/scripts?filter_locale=0&q=%s Grasy Fork
+gh: https://github.com/search?q=%s GitHub
 gi: https://www.google.com/search?tbm=isch&q=%s Google Image
 gm: https://www.google.com/maps?q=%s Google Map
 gr: https://www.google.com/search?tbo=1&tbs=qdr:y&q=%s Google Recent (Last Year Only)
 gs: https://scholar.google.com/scholar?q=%s Google Scholar
 gt: https://translate.google.com/#auto|auto|%s Google Translate
-gd: https://www.gnu.org/cgi-bin/estseek.cgi?phrase=%s GNU Doc
-ps: https://play.google.com/store/search?q=%s&c=apps Play Store
-gh: https://github.com/search?q=%s GitHub
-yt: https://www.youtube.com/results?search_query=%s Youtube
-blbl: https://search.bilibili.com/all?keyword=%s bilibili
-dd: https://devdocs.io/#q=%s DevDocs
-db: https://douban.com/search?q=%s douban
-dbb: https://search.douban.com/book/subject_search?search_text=%s douban Books
-t: https://list.tmall.com/search_product.htm?q=%s TMall
-z: https://www.zhihu.com/search?q=%s Zhihu
 h: chrome://history/?q=%s History
-su: https://superuser.com/search?q=%s Super User
-st: https://store.steampowered.com/search/?term=%s Steam
-so: https://stackoverflow.com/search?q=%s Stack Overflow
-se: https://stackexchange.com/search?q=%s Stack Exchange
-su: https://superuser.com/search?q=%s SuperUser
-st: https://solidtorrents.net/search?q=%s&sort=downloads&category=all&fuv=no Solid Torrents
-qm: https://y.qq.com/portal/search.html#w=%s QQ Music
-pp: https://pypi.org/search/?q=%s PyPI
-p: https://docs.python.org/3/search.html?q=%s Python Doc
-gf: https://greasyfork.org/zh-CN/scripts?filter_locale=0&q=%s Grasy Fork
-lg: https://libgen.lc/search.php?req=%q Lib Gen
-cg: https://crates.io/search?q=%s Cargo
-site: javascript:location='https://www.google.com/search?q=site:'+escape(location.hostname)+'+%s' Current Site
-mw: http://www.merriam-webster.com/dictionary/%s Merriam-Webster
-aw: https://wiki.archlinux.org/index.php?search=%s Arch Wiki
-aml: https://www.google.com/search?q=arch+site%3Aarchlinux.org%2Fpipermail%2F+%s Arch Maillist
-am: https://jlk.fjfi.cvut.cz/arch/manpages/search?q=%s Arch Manual
+lg: https://libgen.lc/search.php?req=%s Lib Gen
 lm: https://www.google.com/search?q=%s&sitesearch=man7.org%2Flinux%2Fman-pages Linux Manual
+ltt: https://linustechtips.com/search/?q=%s LTT Forum
+mw: http://www.merriam-webster.com/dictionary/%s Merriam-Webster
+p: https://docs.python.org/3/search.html?q=%s Python Doc
+ph: https://cn.pornhub.com/video/search?search=%s PornHub
+pp: https://pypi.org/search/?q=%s PyPI
+ps: https://play.google.com/store/search?q=%s&c=apps Play Store
+qm: https://y.qq.com/portal/search.html#w=%s QQ Music
+se: https://stackexchange.com/search?q=%s Stack Exchange
+sf: https://sleazyfork.org/zh-CN/scripts?filter_locale=0&q=%s Sleazy Fork
+site: javascript:location='https://www.google.com/search?q=site:'+escape(location.hostname)+'+%s' Current Site
+slt: https://solidtorrents.net/search?q=%s&sort=size&category=all&fuv=no Solid Torrents
+so: https://stackoverflow.com/search?q=%s Stack Overflow
+st: https://store.steampowered.com/search/?term=%s Steam
+su: https://superuser.com/search?q=%s Super User
+su: https://superuser.com/search?q=%s SuperUser
+t: https://list.tmall.com/search_product.htm?q=%s TMall
+w: https://www.wikipedia.org/w/index.php?search=%s Wikipedia
+wz: https://zh.wikipedia.org/w/index.php?search=%s Wikipedia ZH
+yt: https://www.youtube.com/results?search_query=%s Youtube
+z: https://www.zhihu.com/search?q=%s Zhihu
+
+# More examples.
+#
+# (Vimium supports search completion Wikipedia, as
+# above, and for these.)
+#
+# g: https://www.google.com/search?q=%s Google
+# l: https://www.google.com/search?q=%s&btnI I'm feeling lucky...
+# y: https://www.youtube.com/results?search_query=%s Youtube
+# gm: https://www.google.com/maps?q=%s Google maps
+# b: https://www.bing.com/search?q=%s Bing
+# d: https://duckduckgo.com/?q=%s DuckDuckGo
+# az: https://www.amazon.com/s/?field-keywords=%s Amazon
+# qw: https://www.qwant.com/?q=%s Qwant
